@@ -26,4 +26,23 @@ $(function() {
       });
     });
   });
+
+
+  // $("#proress-bar").on("load", ()=>{
+  //   var width = 1;
+  // });
 });
+// function proBar() {
+//   var progressBar = document.getElementById("progress-bar");
+//   var width = 1;
+//   var interval = setInterval(frame, 10);
+//   function frame() {
+//     if (width >= 70) {
+//       clearInterval(interval);
+//     }
+//     else{
+//       width++;
+//       progressBar.style.width = width + "%";
+//     }
+//   }
+// }
